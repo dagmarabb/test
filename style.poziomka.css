@@ -1,0 +1,185 @@
+body
+{
+background-color: #dfe2d3;
+font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+  #logo
+  {
+    font-size: 40px;
+    background-color: #357222;
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    }
+  #topbar
+  {
+    width: 1000px;
+    height: 46px;
+    background-color: #357222;
+    border-top: 1px dotted #68a555;
+    color: white;
+    text-align: center;
+  }
+  .buttons
+  {
+    font-size: 20px;
+    width: 145px;
+    height: 27px;
+    padding: 10px;
+    float:left;
+    border-left: 1px dotted #68a555;
+    }
+
+  div .buttons:hover
+  {
+    cursor: pointer;
+    background-color: #579444;
+  }
+
+  ul > li
+  {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px dotted #68a555;
+    border-bottom: : 1px dotted #68a555;
+    font-size: 18px;
+    background-color: #357222;
+  }
+  ul > li:hover
+  {
+    cursor: pointer;
+    background-color: #135000;
+  }
+  ul
+  {
+    display: none;
+  }
+
+  /*żeby się pokazało*/
+
+  div .buttons:hover > ul
+  {
+    display: block;
+  }
+
+#name
+{
+  margin-left: 70px;
+  padding-right: 190px;
+  width: 140px;
+  float: left;
+  font-size: 34px;
+  color: black;
+  height: 150px;
+  padding-top: 70px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.obrazek
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-right: 20px;
+  width: 255px;
+  height: 200px;
+  float: left;
+}
+
+#content
+{
+  border-top: 1px solid;
+  font-size: 16px;
+  color: black;
+}
+
+
+.lista1
+{
+  float: left;
+  width: 44%;
+  text-align: left;
+  margin: 0px 10px;
+  color: black;
+}
+
+
+.lista2
+{
+  float: left;
+  width: 24%;
+  margin: 0px 15px;
+  text-align: justify;
+  color: black;
+
+}
+
+h3
+{
+  text-align: center;
+}
+
+.use
+{
+  float: left;
+  margin-right: 5px;
+  width:45%;
+  border-right: 1px dotted;
+
+}
+
+.linia
+{
+  border-right: 0px;
+}
+
+.use > ul > li
+{
+  list-style-type: none;
+}
+
+.use > ul
+{
+  margin-top: 5px;
+}
+
+a:link
+{
+  text-decoration: none;
+  color: #405b46;
+}
+
+a:visited
+{
+  color: #405b46;
+}
+
+a:hover
+{
+  color: #405b46;
+  font-weight: 700;
+}
+
+#inne
+{
+  clear: both;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h5
+{
+  margin: 0;
+}

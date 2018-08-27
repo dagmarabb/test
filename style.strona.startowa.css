@@ -1,0 +1,38 @@
+body
+{
+background-color: #dfe2d3;
+font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+#logo
+{
+  font-size: 40px;
+  background-color: #357222;
+  color: white;
+  text-align: center;
+  padding-bottom: 2px;
+  }
+#topbar
+{
+  width: 1000px;
+  font-size: 20px;
+  background-color: #357222;
+  border-top: 1px dotted #468333;
+  color: white;
+  text-align: center;
+}
+.buttons
+{
+  width: 145px;
+  padding: 10px;
+  float: left;
+  border-left: 1px dotted #468333;
+  background-color: #357222;
+  color: white;
+  }
